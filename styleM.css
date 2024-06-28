@@ -1,0 +1,293 @@
+*{
+    margin:0px;
+    border: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    background-size: cover;
+    background: linear-gradient(to right,#00093c,#2d0b00);
+    font-family: 'Poppins',sans-serif;
+}
+.mentos{
+
+   height: 1200px;
+   width: 100%;
+}
+   
+.navbar{
+    position: fixed;
+    top: 0px; 
+    width: 100%; 
+    margin-top: 30px;
+    color: white;
+    z-index: 1000; 
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 60px;
+    background-image: url(dddd.jpg);
+    background-size: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+.left{
+  
+    height: 50%;
+
+    width: 50%;
+    justify-content: left;
+   display: flex;
+   font-size: 25px;
+
+}
+.right{
+    display: flex;
+    height: 50%;
+    width: 50%;
+   justify-content: right;
+   font-size: 25px;
+
+}
+.login{
+    width: 20%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgb(80, 80, 240);
+    color: black;
+    /* box-shadow: 0px 0px 5px black; */
+    
+}
+.logo{
+    width: 30%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid rgb(80, 80, 240);
+}
+
+.contact{
+    width:20%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid rgb(80, 80, 240);
+    text-decoration: none;
+    color: black;
+    /* box-shadow: 0px 0px 5px white; */
+}
+.hello{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid rgb(80, 80, 240);
+     width: 25%;
+     /* box-shadow: 0px 0px 5px black; */
+}
+.mentor{
+    width: 20%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 15px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border: 1px solid rgb(80, 80, 240);
+    color: black;
+    /* box-shadow: 0px 0px 5px black; */
+
+    
+}
+a{
+    text-decoration: none;
+}
+#hi:hover{
+    background-color: orange;
+    box-shadow: 0px 0px 5px black;
+}
+.search{
+    width: 40%;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 100px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    border: 1px solid rgb(80, 80, 240);
+    color: black;
+    /* box-shadow: 0px 0px 5px black; */
+}
+.men1{
+    margin-top: 150px;
+
+    height:300px ;
+    width: 100%;
+    display: flex;
+    /* box-shadow: 0px 0px 5px white; */
+    /* border-radius: 35px; */
+    /* background-color: rgb(199, 230, 243); */
+}
+.men2{
+    margin-top: 100px;
+    height:300px ;
+    width: 100%;
+    /* box-shadow: 0px 0px 3px grey; */
+    display: flex;
+    /* border-radius: 35px; */
+    /* background-color: rgb(199, 230, 243); */
+}
+.men3{
+    margin-top: 100px;
+    /* box-shadow: 0px 0px 3px grey; */
+    height:300px ;
+    width: 100%;
+    display: flex;
+    /* border-radius: 35px; */
+    /* background-color: rgb(199, 230, 243); */
+}
+.men4{
+    margin-top: 100px;
+    /* box-shadow: 0px 0px 3px grey; */
+    height:300px ;
+    width: 100%;
+    display: flex;
+    /* border-radius: 35px; */
+    /* background-color: rgb(199, 230, 243); */
+}
+#ment:hover{
+    
+    box-shadow: 0px 0px 5px white;
+}
+.profile{
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: brown;
+    border-radius: 20px;
+    border: 3px solid black;
+
+}
+#m1{
+    background-image: url(sam.jpg);
+    background-size: cover;
+}
+#m2{
+    background-image: url(him.jpg);
+    background-size: cover;
+}
+#m3{
+    background-image: url(bri.jpg);
+    background-size: cover;
+}
+#m4{
+    background-image: url(sam.jpg);
+    background-size: cover;
+}
+.fact{
+    width: 500px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(231, 255, 123);
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.fact h2{
+    font-size: 30px;
+    color: blue;
+    margin-top: 20px;
+    text-decoration: underline;
+    text-shadow: 0px 0px 3px grey;
+}
+.fact h3{
+    font-size: 25px;
+    color: black;
+    margin-top: 15px;
+    text-align: left;
+    margin-left: 130px;
+}
+.samp{
+    width: 300px;
+    margin-left: 50px;
+    margin-right: 50px
+    
+    
+}
+.mess{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:rgb(85, 164, 255);
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+.call{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(85, 164, 255);
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid black;
+
+}
+
+
+.video{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(85, 164, 255);
+    height: 80px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#hii:hover{
+    background-color: orange;
+    box-shadow: 0px 0px 15px white;
+}
+.fact:hover{
+    
+    box-shadow: 0px 0px 15px white;
+}
+.profile:hover{
+    
+    box-shadow: 0px 0px 15px white;
+}
+.footm{
+    margin-top: 50px;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.footm p{
+    padding-top: 15px;
+    font-size: 25px;
+    text-align: center;
+}
